@@ -6,7 +6,7 @@
 #define ENC_X_A 34          //X axis encoder A pin
 #define ENC_X_a 36           //X axis encoder a pin (differential pair of A base signal)
 #define ENC_X_B 35          //X axis encoder B pin
-#define ENC_X_a 39           //X axis encoder a pin (differential pair of A base signal)
+#define ENC_X_b 39           //X axis encoder a pin (differential pair of A base signal)
 
 #define ENC_X_RES 0.005     //X axis encoder scale resolution in mm/pulse
 #define ENC_X_INV false     //X axis invert control
@@ -24,8 +24,8 @@
 #define ENC_Z_B 27          //Z axis encoder B pin
 #define ENC_Z_b 14           //Z axis encoder b pin (differential pair of B base signal)
 
-#define ENC_Z_Res 0.005     //Z axis encoder scale resolution in mm/pulse
-#define ENC_Z_Inv false     //Z axis invert control
+#define ENC_Z_RES 0.005     //Z axis encoder scale resolution in mm/pulse
+#define ENC_Z_INV false     //Z axis invert control
 
 #define ZERO_Z_PIN 23       //GPIO for Z axis zero switch
 #define LIMIT_Z_PIN 22      //GPIO for Z axis limit switch
