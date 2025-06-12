@@ -1,0 +1,7 @@
+uint32 latest_duration_x
+uint32 avg_duration_x
+uint32 max_duration_x
+uint32 latest_duration_z
+uint32 avg_duration_z
+uint32 max_duration_z
+uint32 min_isr_interval
